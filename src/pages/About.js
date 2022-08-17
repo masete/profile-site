@@ -1,5 +1,6 @@
 import React from 'react';
 import NavBar from '../components/NavBar';
+import Content from './content';
 
 const About = () => {
   return (
@@ -11,16 +12,17 @@ const About = () => {
             alt='/' />
             <NavBar />
         </div>
-        <div className='flex top-[80%] justify-center'>
-            <div className='absolute w-1/4'>
+        {/* <div className='top-10 flex flex-wrap justify-center absolute'>
+            <div className='w-1/4'>
                 <p>hjskjfkf</p>
             </div>
-            <div className='absolute w-3/4'>
+            <div className='w-3/4'>
                 <p>hjfkhdjkdfjkdf</p>
             </div>
-        </div>
+        </div> */}
+        
     </div>
-    
+        <Content />
     </>
   )
 }
