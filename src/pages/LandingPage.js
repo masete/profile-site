@@ -6,12 +6,12 @@ import Footer from '../components/Footer';
 const LandingPage = () => {
   return (
     <>
-    <div className=''>
+    <div className='flex flex-col min-h-screen'>
         <Header />
         <Projects/>
         {/* <Footer /> */}
     </div>
-    {/* <Footer/> */}
+    <Footer/>
     </>
   )
 }
