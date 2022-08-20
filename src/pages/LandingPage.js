@@ -9,8 +9,9 @@ const LandingPage = () => {
     <div className=''>
         <Header />
         <Projects/>
-        <Footer />
+        {/* <Footer /> */}
     </div>
+    {/* <Footer/> */}
     </>
   )
 }
