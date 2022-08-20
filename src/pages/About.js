@@ -12,14 +12,14 @@ const About = () => {
             alt='/' />
             <NavBar />
         </div>
-        {/* <div className='top-10 flex flex-wrap justify-center absolute'>
-            <div className='w-1/4'>
+        <div className='flex flex-wrap mb-4 justify-center'>
+            <div className='w-1/4 absolute top-[50%]'>
                 <p>hjskjfkf</p>
             </div>
-            <div className='w-3/4'>
+            <div className='w-3/4 absolute top-[50%]'>
                 <p>hjfkhdjkdfjkdf</p>
             </div>
-        </div> */}
+        </div>
         
     </div>
         <Content />
