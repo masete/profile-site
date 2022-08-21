@@ -7,7 +7,10 @@ const NavBar = () => {
       <div className='container mx-auto max-w-screen-lg h-full'>
         <div className='flex justify-between h-full'>
           <div className='text-center flex items-center align-items cursor-pointer'>
-            <p className='font-bold text-3xl'>NICHOLAS MASETE</p>
+            <Link to='/'>
+              <p className='font-bold text-3xl'>NICHOLAS MASETE</p>
+            </Link>
+            
           </div>
           <div className='text-center flex items-center align-items cursor-pointer'>
             <Link to='/about'>
