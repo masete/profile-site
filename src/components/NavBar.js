@@ -8,7 +8,7 @@ const NavBar = () => {
         <div className='flex justify-between h-full'>
           <div className='text-center flex items-center align-items cursor-pointer'>
             <Link to='/'>
-              <p className='font-bold text-3xl'>NICHOLAS MASETE</p>
+              <p className='font-bold text-3xl font-signature'>MASETE</p>
             </Link>
             
           </div>
